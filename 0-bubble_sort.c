@@ -22,9 +22,9 @@ void swap(int *a, int *b)
 * @size: size of input array
 * Return: returns nothing
 */
-void bubble_sort(int arr[], int size)
+void bubble_sort(int arr[], size_t size)
 {
-	int i, j;
+	size_t i, j;
 
 	for (i = 0; i < size; i++)
 	{
