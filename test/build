@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc ../*.c 0-main.c -o main0
-./main0
+gcc ../print_array.c ../print_list.c ../0-bubble_sort.c 0-main.c -Wall -Werror -pedantic -o bubble
