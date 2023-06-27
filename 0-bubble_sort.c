@@ -31,8 +31,10 @@ void bubble_sort(int arr[], size_t size)
 		for (j = 1; j < size - i; j++)
 		{
 			if (arr[j] < arr[j - 1])
+			{
 				swap((arr + j - 1), (arr + j));
 				print_array(arr, size);
+			}
 		}
 	}
 }
